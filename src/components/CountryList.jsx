@@ -23,7 +23,7 @@ function CountryList({ cities, isLoading }) {
   return (
     <ul className={styles.countryList}>
       {countries.map((country) => (
-        <CountryItem country={country} key={country.emoji} />
+        <CountryItem country={country} key={country.country} />
       ))}
     </ul>
   );
@@ -34,3 +34,4 @@ CountryList.propTypes = {
   isLoading: PropTypes.bool.isRequired,
 };
 export default CountryList;
+  
