@@ -1,7 +1,6 @@
 import styles from "./CityList.module.css";
 import Spinner from "./Spinner";
 import CityItem from "./CityItem";
-import PropTypes from "prop-types";
 import Message from "./Message";
 import { useCities } from "../context/CitiesContext";
 
@@ -25,8 +24,4 @@ function CityList() {
   );
 }
 
-CityList.propTypes = {
-  cities: PropTypes.array.isRequired,
-  isLoading: PropTypes.bool.isRequired,
-};
 export default CityList;
