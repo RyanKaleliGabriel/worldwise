@@ -11,6 +11,6 @@ function CountryItem({ country }) {
 }
 
 CountryItem.propTypes = {
-  country: PropTypes.array.isRequired,
+  country: PropTypes.object.isRequired,
 };
 export default CountryItem;
