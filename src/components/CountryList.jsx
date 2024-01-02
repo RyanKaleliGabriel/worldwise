@@ -32,7 +32,7 @@ function CountryList() {
 }
 
 CountryList.propTypes = {
-  cities: PropTypes.array.isRequired,
-  isLoading: PropTypes.bool.isRequired,
+  cities: PropTypes.any,
+  isLoading: PropTypes.any,
 };
 export default CountryList;
