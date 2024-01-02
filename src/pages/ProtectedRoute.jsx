@@ -18,6 +18,6 @@ function ProtectedRoute({ children }) {
 }
 
 ProtectedRoute.propTypes = {
-  children: PropTypes.string,
+  children: PropTypes.any,
 };
 export default ProtectedRoute;
